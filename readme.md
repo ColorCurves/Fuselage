@@ -90,8 +90,8 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 ### Suggests
 
 * [DaMichel's CargoBays (DCB)][DCB]
-* [DaMichel's Fuselage (DAR)][DAR]
-* [DaMichel's SphericalTanks(DST)][DST]
+* [DaMichel's Fuselage (DAR)][DMF]
+* [DaMichel's SphericalTanks (DST)][DST]
 * [DaMichel's Fuselage (DMF)][DAR]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 * [TweakScale][twk]
@@ -168,9 +168,9 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:0:source]: https://www.dropbox.com/s/85og3xdhark7com/MOD-NAME5.rar?dl=0 "Dropbox"
+[MOD:0:source]: https://www.dropbox.com/s/ayqdo72ieq0do86/DMTanks_Mar06-2014.zip"Dropbox"
 [MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/55842-*/ "KSP Forum"
-[MOD:0:dnload]: https://www.dropbox.com/s/85og3xdhark7com/MOD-NAME5.rar?dl=0 "Dropbox"
+[MOD:0:dnload]: https://www.dropbox.com/s/ayqdo72ieq0do86/DMTanks_Mar06-2014.zip"Dropbox"
 
 [MOD:1:source]: https://github.com/ColorCurves/AeroRTG "GitHub"
 [MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/55842-*/ "KSP Forum"
@@ -215,11 +215,11 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 [ckan]: https://forum.kerbalspaceprogram.com/index.php?/topic/154922-*/ "CKAN"
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
 
-[DAR]: https://forum.kerbalspaceprogram.com/index.php?/topic/208118-*/ "DaMichel's Fuselage (DMF)"
+[DAR]: https://forum.kerbalspaceprogram.com/index.php?/topic/208118-*/ "DaMichel's AeroRadial (DAR)"
 [DCB]: https://forum.kerbalspaceprogram.com/index.php?/topic/207351-*/ "DaMichel's CargoBays (DCB)"
 [DMF]: https://forum.kerbalspaceprogram.com/index.php?/topic/208131-*/ "DaMichel's Fuselage (DMF)"
 [DML]: https://forum.kerbalspaceprogram.com/index.php?/topic/208107-*/ "DaMichel Ltd (DM/L)"
-[DST]: https://spacedock.info/mod/2342 "DaMichel's SphericalTanks(DST)"
+[DST]: https://forum.kerbalspaceprogram.com/index.php?/topic/208140-*/ "DaMichel's SphericalTanks (DST)"
 
 <!-- financial support -->
 [PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00/ "PayPal"
