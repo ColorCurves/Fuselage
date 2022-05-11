@@ -7,13 +7,13 @@ tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
 <!-- ManualInstallation.md v1.1.7.0
-AeroRadial (DAR)
+Fuselage (DMF)
 created: 01 Oct 2019
 updated: 18 Apr 2022 -->
 
 <!-- based upon work by Lisias -->
 
-# AeroRadial (DAR)
+# Fuselage (DMF)
 
 [Home](./index.md)
 
@@ -76,4 +76,4 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 
 * none
 
-[DML]: https://forum.kerbalspaceprogram.com/index.php?/topic/208107-*/ "AeroRadial (DAR)"
+[DML]: https://forum.kerbalspaceprogram.com/index.php?/topic/208107-*/ "Fuselage (DMF)"
