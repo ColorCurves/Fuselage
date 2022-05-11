@@ -51,7 +51,7 @@
 ### Status
 
 * Issues
-  * closes #1 - AeroRadial (DAR) 1.1.99.0-prerelease `<Split'n'Polish: AeroRadial>`
+  * closes #1 - Fuselage (DMF) 1.1.99.0-prerelease `<Split'n'Polish: AeroRadial>`
   * closes #2 - 1.1.99.0 Verify Legal Mumbo Jumbo
   * closes #3 - 1.1.99.0 Update Documentation
   * closes #4 - 1.1.99.0 Social Media
