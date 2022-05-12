@@ -23,18 +23,18 @@ An aero parts add-on that adds stock-alike flat fuselage parts. These parts are 
 
 ### Forward by [Bezzier][bezzier]
 
-> Have you wanted to power your pods and spaceplanes with an RTG instead of solar panels, but been disappointed by the ungainly nature of the stock RTG?
->
-> If so, this part is for you!
->
-> This is a modernization of DaMichel's Aerodynamic RTG part developed in KSP 0.25. It has the same stats and cost as the stock RTG, but is designed in an aerodynamic, radially attached > form factor. It is useful anytime you'd like to use an RTG but don't want lots of drag, or anytime you want a prettier alternative to the boxy stock RTG
->
-> originally named ***Radial Aerodynamic RTG***, because [DaMichel][damichel] could. Has much lower drag in FAR than stock RTG due to not having attach nodes.
+> Fuselage: These parts are rectangular fuselage pieces meant to be radially attached. You get two center pieces, an air inlet, a terminal piece, an adapter to the standard 1.25 m parts and as extras a smallish tail boom and a slanted cone. Patch for B9 fuel switch included. The remaining patches are /YMMV/.
 
-### Contains two radial parts
+### Contains eight stock-a-like fuselage parts
 
-* PB-NUK : A Aerodynamic Radioisotope Thermoelectric Generator and contains a small battery  
-* PB-ZAP : A Radial Aerodynamic Fuel Cell Generator (LF+IA) and contains a small battery; intake sold separately.  
+* tank
+  * normal
+  * long
+* air inlet
+* terminal piece
+* flat to 1.25m adapter
+* radially attached tail boom
+* slanted cone  
 
 ### Images
 
@@ -73,14 +73,14 @@ An aero parts add-on that adds stock-alike flat fuselage parts. These parts are 
 
 ### Installation Directions
 
-***Use***
-  CurseForge/OverWolf App (currently does not install dependencies) [^1]  
+***Use***  [^1]
+  CurseForge/OverWolf App (currently does not install dependencies)  
 
   <a href="https://download.curseforge.com/">
     <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
 </a>
 
-or [![CKAN][CKAN:img]][CKAN:url] [^1]
+or [![CKAN][CKAN:img]][CKAN:url]
 
 ### Dependencies
 
@@ -98,9 +98,9 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 
 ### Supports
 
-* Either
-  * [Module Manager][mm] [^3]
-  * [Module Manager /L][mm]l [^3]
+* Either [^3]
+  * [Module Manager][mm]
+  * [Module Manager /L][mml]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 * [TweakScale][twk]
 
@@ -212,7 +212,6 @@ or [![CKAN][CKAN:img]][CKAN:url] [^1]
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
-[ckan]: https://forum.kerbalspaceprogram.com/index.php?/topic/154922-*/ "CKAN"
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
 
 [DAR]: https://forum.kerbalspaceprogram.com/index.php?/topic/208118-*/ "DaMichel's AeroRadial (DAR)"
