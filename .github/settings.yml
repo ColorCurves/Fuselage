@@ -18,7 +18,7 @@ repository:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/208131-*/
 
   # A comma-separated list of topics to set on the repository
-  topics: intake,intake-air,aero,stock-alike,flat,fuselage,rectangular,radially,plane,sph,ssto,colorcurves,damichel,kerbal,kerbalspaceprogram,ksp,ksp-mods,kerbal-space,kerbal-space-program,kerbal-mods,zedk
+  topics: intake-air,aero,stock-alike,flat,fuselage,rectangular,radial,plane,sph,ssto,colorcurves,damichel,kerbal,kerbalspaceprogram,ksp,ksp-mods,kerbal-space,kerbal-space-program,kerbal-mods,zedk
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
