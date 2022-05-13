@@ -23,9 +23,15 @@ An aero parts add-on that adds stock-alike flat fuselage parts. These parts are 
 
 ### Forward by [Bezzier][bezzier]
 
-> Fuselage: These parts are rectangular fuselage pieces meant to be radially attached. You get two center pieces, an air inlet, a terminal piece, an adapter to the standard 1.25 m parts and as extras a smallish tail boom and a slanted cone. Patch for B9 fuel switch included. The remaining patches are /YMMV/.
+> Fuselage: These parts are rectangular fuselage pieces meant to be radially attached.
+>
+> You get two center pieces, an air inlet, a terminal piece, an adapter to the standard 1.25 m parts and as extras a smallish tail boom and a slanted cone.
+>
+> Patch for B9 fuel switch included.
+>
+> The remaining patches are /YMMV/.
 
-### Contains eight stock-a-like fuselage parts
+### Contains stock-a-like fuselage parts
 
 * tank
   * normal
@@ -38,7 +44,7 @@ An aero parts add-on that adds stock-alike flat fuselage parts. These parts are 
 
 ### Images
 
-<img src="https://i.postimg.cc/TYkqYt3T/Aero-Radial-Hero.png" alt="DaMichel's  Fuselage" title="DaMichel's Fuselage" style="zoom:55%;" /> <img src="https://i.postimg.cc/RCLmbDMC/DAR-New-Product-01-650x650.png" alt="DaMichel's  Fuselage" title="DaMichel's Fuselage" style="zoom:50%;" /> 
+<img src="DaMichels-FuselageSystem" alt="DaMichel's  Fuselage System" title="DaMichel's Fuselage System" style="zoom:55%;" />
 
 [View full album](https://imgur.com/a/rFRN1)
 
