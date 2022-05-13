@@ -61,7 +61,7 @@
 ## Version 1.1.0.2-release - `<Superglue and Dusting>`
 
 * Released on 2020-03-09
-* Kerbal Space Program 1.91
+* Kerbal Space Program 1.9.1
 
 * cleaned part.cfg's of extraneous // comments
 * updated changelog to use updated KERBALCHANGELOG formatting.
@@ -296,4 +296,3 @@ Correcting typos
 ---
 
 <!-- This File CC BY-ND 4.0 by zer0Kerbal -->
-
