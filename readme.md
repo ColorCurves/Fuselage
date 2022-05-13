@@ -13,13 +13,16 @@ updated: 09 May 2022 -->
 
 # Fuselage (DMF)
 
-An aero parts add-on that adds stock-alike flat fuselage parts. These parts are rectangular fuselage pieces meant to be radially attached.
+Adds seven (7) stock-a-like flat fuselage parts. These parts are rectangular fuselage pieces meant to be radially attached.
 
 
 
 ## By [`zer0Kerbal`][zer0Kerbal], originally by [DaMichel][damichel], and then by [Bezzier][bezzier]
 
 
+<img src="https://raw.githubusercontent.com/zer0Kerbal/Fuselage/master/img/HeroLogo_1920x1920.png" alt="Fuselage (DMF)" style="zoom: 33%;" /> 
+
+[View full album](https://imgur.com/a/rFRN1)
 
 ### Forward by [Bezzier][bezzier]
 
@@ -31,22 +34,20 @@ An aero parts add-on that adds stock-alike flat fuselage parts. These parts are 
 >
 > The remaining patches are /YMMV/.
 
-### Contains stock-a-like fuselage parts
+### Contains seven (7) stock-a-like flat fuselage parts
 
-* tank
-  * normal
-  * long
+* tank [normal, long]
 * air inlet
 * terminal piece
 * flat to 1.25m adapter
 * radially attached tail boom
-* slanted cone  
-
-### [View full album](https://imgur.com/a/rFRN1)
-
-<img src="https://raw.githubusercontent.com/zer0Kerbal/Fuselage/master/img/HeroLogo_1920x1920.png" alt="Fuselage (DMF)" style="zoom: 33%;" /> 
+* slanted cone
 
 ---
+
+### Cabin Notes by [`DaMichel`][damichel]
+
+* ***Usage of FerramAerospaceResearch*** is strongly recommended. The parts have some values for stock aerodynamic parameters but i have no idea if they are reasonable nor will i take the time to balance for stock. In contrast, FAR figures this stuff out automagically.
 
 ### See More
 
@@ -104,6 +105,17 @@ or [![CKAN][CKAN:img]][CKAN:url]
   * [Module Manager /L][mml]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 * [TweakScale][twk]
+* [Active Texture Manager (ATM)][atm]
+  * Include a configuration which scaling in general and compression of the normal map
+  * If you like a more aggressive configuration - delete Compatibility/ActiveTextureManager.cfg
+* [Advanced Jet Engine (AJE)][aje]
+  * The inlet has a configuration for AJE
+  * Based on the Sp+ rectangular inlet and made the inlet larger
+* [Ferram Aerospace Research (FAR)][far]
+* [Firespitter Core][fscore]
+  * If you have the Firespitter DLL and no RealFuels it will use it to give the parts swappable tanks
+  * Chose between LF, LF+OX and MP variants
+* [Real Fuels][rf] configs are included
 
 ### Tags
 
@@ -145,6 +157,10 @@ or [![CKAN][CKAN:img]][CKAN:url]
 
 > Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:dnload] - Source: [Dropbox][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
+> [Permission granted by original author](http://forum.kerbalspaceprogram.com/index.php?/topic/55842-partswip-damichels-partsfuselage-r2-2222015/&do=findComment&comment=2568712)
+> Content originally created by [`DaMichel`][damichel].
+> These parts are released under Creative Commons Attribution-ShareAlike 3.0 Unported License.
+> I used textures from StretchySRBs, heavily modified/integrated into my own.
 
 ---
 
@@ -214,6 +230,12 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
+
+[rf]: https://forum.kerbalspaceprogram.com/index.php?showtopic=58236-*/ "Real Fuels"
+[aje]: https://forum.kerbalspaceprogram.com/index.php?showtopic=139868-*/ "Advanced Jet Engine (AJE)"
+[fscore]: https://github.com/snjo/Firespitter "Firespitter"
+[far]: https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*/ "Ferram Aerospace Research (FAR)"
+[atm]: https://forum.kerbalspaceprogram.com/index.php?/topic/53809-*/ "Active Texture Manager (ATM)"
 
 [DAR]: https://forum.kerbalspaceprogram.com/index.php?/topic/208118-*/ "DaMichel's AeroRadial (DAR)"
 [DCB]: https://forum.kerbalspaceprogram.com/index.php?/topic/207351-*/ "DaMichel's CargoBays (DCB)"
