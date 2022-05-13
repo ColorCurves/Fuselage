@@ -43,7 +43,7 @@
   * <us-en.cfg>
 * Add
   * Localization/
-    * [readme.md]
+    * [readme.md] from v2.0.1.1 to v2.1.1.0
     * [quickstart.md]
 * updates #6 - American English <us-en.cfg>
 * updates #5 - Localization - Master
