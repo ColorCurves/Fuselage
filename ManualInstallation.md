@@ -17,7 +17,7 @@ updated: 18 Apr 2022 -->
 
 [Home](./index.md)
 
-This part add-on adds two (2) electric charge producing parts
+Adds seven (7) stock-a-like flat fuselage parts. These parts are rectangular fuselage pieces meant to be radially attached.
 
 ## Installation Instructions
 
