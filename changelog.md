@@ -10,9 +10,9 @@
 | spacedock  | (https://spacedock.info/mod/2340)                                 |
 | ckan       | DMTanks-Fuselage                                                  |
 
-## Version 2.1.99.0-prerelease - `<Split'n'Polish: AeroRadial>`
+## Version 1.1.99.0-prerelease - `<Split'n'Polish: Fuselage>`
 
-* 09 May 2022  
+* 13 May 2022  
 * Release for Kerbal Space Program [KSP 1.12.x]
 
 ### Add
@@ -35,7 +35,7 @@
   * duplicate textures
   * duplicate models
 * relocate part.cfg to Parts
-* closes #36 - Asset Updates
+* closes #28 - Asset Updates
 
 ### Localization
 
@@ -51,90 +51,205 @@
 ### Status
 
 * Issues
-  * closes #1 - Fuselage (DMF) 1.1.99.0-prerelease `<Split'n'Polish: AeroRadial>`
-  * closes #2 - 1.1.99.0 Verify Legal Mumbo Jumbo
-  * closes #3 - 1.1.99.0 Update Documentation
-  * closes #4 - 1.1.99.0 Social Media
+  * closes #2 - Fuselage (DMF) 1.1.99.0-prerelease `<Split'n'Polish: Fuselage>`
+  * closes #3 - 1.1.99.0 Verify Legal Mumbo Jumbo
+  * closes #4 - 1.1.99.0 Update Documentation
+  * closes #5 - 1.1.99.0 Update Social Media
 
 ---
 
-## Version 1.1.0.2 - for KSP 1.12.3 [22-Mar-2022]
+## Version 1.1.0.2-release - `<Superglue and Dusting>`
 
-* #4 - [ImgBot] Optimize images - contributed by imgbot[bot]
-* #6 - [ImgBot] Optimize images
+* Released on 2020-03-09
+* Kerbal Space Program 1.91
 
----
-
-### Version 1.1.0.1-prerelease - `<Spit'n'Polish>`
-
-* 2020-02-24
-* Released for Kerbal Space Program 1.8.1
-
-* thank you to BenjaminCronin
-  * for pointed out decorative right brace in changelogs
-  * wite-out applied
-* Also dangling VERSION
-  * superglue applied.
-* added
-  * attach node to the back (rear) of the parts
-* updated
-  * the DM-RFC texture.
-* RTG
-  * adjusted
-    * [cost] from 34950 to 20000
-    * [entryCost] from 58000 to 50000
-    * [TechRequired] from experimentalElectrics to largeElectrics
-* removed
-  * tags.cfg (redundant patch since tags now in localization)
-* updated product hero shots
-* created SpaceDock header
+* cleaned part.cfg's of extraneous // comments
+* updated changelog to use updated KERBALCHANGELOG formatting.
+* [B9PartSwitch.cfg]
+  * Localized
+  * added side nodes
 
 ### Status
 
 * Issues
-  * closes #33 - Previous Releases
-  * closes #35 - 1.1.0.1-prerelease
-  * updates #36 - Asset Updates
+  * closes #24 - Previous Releases
+  * closes #26 - 1.1.0.2-release
+  * updates #28 - Asset Updates
 
 ---
 
-### Version 1.1.0.0-adoption - `<Fresh Coat of Paint: AeroRadial>`
+## Version 1.1.0.1-prerelease - `<Spit'n'Polish`>
 
-* 2020-02-17
-* Released for Kerbal Space Program 1.8.1
+* Released on 2020-02-23
+* Kerbal Space Program 1.9.1
 
-* adopted by zer0Kerbal
-* for Kerbal Space Program (KSP) 1.9 (might work for earlier)
+### Thank You
+
+* KottabosGames for the review and suggestions!
+* BenjaminCronin
+  * for pointed out decorative right brace in changelogs
+    * wite-out applied.
+  * Also dangling VERSION
+    * superglued applied.
+
+### Adjusted
+
+* All Parts
+  * strength
+  * temperatures
+  * adjusted breakingForce on all parts from 50 to 200 (except where noted)
+  * adjusted breakingTorque on all parts from 50 to 200(except where noted)
+  * adjusted B9fuelswitch to have LF come after Structural instead of LFO
+  * [explosionPotential] = 0.5
+  * [buoyancy] = 0.1
+
+### Added
+
+* [DM-fuselage-intake.cfg]
+  * same specs like the Ram Air Intake.
+  * Added
+    * [thermalMassModifier] = 12.0
+    * machcurve to ModuleResourceIntake on intake
+  * Adjusted
+    * intakeSpeed from 10 to 15
+    * [RESOURCE] [IntakeAir] amount/maxAmount from 0.2 to 2.0
+    * [entryCost] from 1600 to 14000
+    * [cost] from 2000 to 2680
+    * [maximum_drag] from 0.2 to 0.3
+    * [minimum_drag] from 0.2 to 0.3
+  * added
+    * [ModuleAnimateHeat]
+    * [stackSymmetry] = 2
+* [DM-fuselage-cone]
+  * basing stats on: Advanced Nose Cone - Type B (pointyNoseConeB)
+  * Adjusted
+    * [scale] = 0.9375, 0.9375, 0.9375 from 1.0, 0.9375, 1.0
+      * noted by Kottabo
+  * [entryCost] to 8000 from 1600
+  * corrected typo on [maximum_drag] should have been 0.1 instead it was 0.11
+  * [angularDrag] to 0.25 from 0.5
+  * [maxTemp] to 2000 from 2900
+  * Added
+    * size2 to [bulkheadProfiles] = mk1, size2, srf
+    * [explosionPotential] = 0.5
+    * [CoMOffset] = 0.0, 0.0, -0.313
+    * [CoPOffset] = 0.0, 0.0, -0.313
+    * [CoLOffset] = 0.0, 0.0, -0.313
+    * [CenterOfDisplacement] = 0.0, -0.2, 0.0
+    * [thermalMassModifier] = 6.0
+    * [emissiveConstant] = 0.95
+    * [buoyancy] = 0.1
+    * [ModuleAnimateHeat]
+* [DM-fuselage-tailboom]
+  * Based upon Tail Connector A (airplaneTailB)
+  * Adjusted
+    * [entryCost] to 2500 from 1600
+    * [cost] to 500 from 200
+    * [crashTolerance] to 8 from 20
+    * [maxTemp] to 2200 from 2900
+  * Added
+    * [thermalMassModifier] = 6.0
+    * [emissiveConstant] = 0.95
+    * [explosionPotential] = 0.5
+    * [CoMOffset] = 0.0, -1.5, 0.0
+    * [CoPOffset] = 0.0, -1.5, 0.0
+    * [CoLOffset] = 0.0, -1.5, 0.0
+    * [CenterOfDisplacement] = 0.0, -1.5, 0.0
+    * [buoyancy] = 0.1
+    * [explosionPotential] = 0.5
+    * [ModuleAnimateHeat]
+* [DM-fuselage-X1] DMF - Flat Fuel Tank X1
+  * based upon Mk2 Rocket Fuel Fuselage Short(mk2FuselageShortLFO)
+  * Adjusted
+    * [entryCost] to 15000 from 1600
+    * [crashTolerance] to 50 from 10
+    * [maxTemp] to 2500 from 2900
+  * Added
+    * [buoyancy] = 0.1
+    * srf to [bulkheadProfiles] = mk1, srf
+    * [mirrorRefAxis] = 0, 0, -1
+    * [ModuleLiftingSurface]
+* [DM-fuselage-X2] DMF - Flat Fuel Tank X2
+  * based upon Mk2 Rocket Fuel Fuselage(mk2FuselageLongLFO)
+  * Adjusted
+    * [entryCost] to 18000 from 1600
+    * [crashTolerance] to 50 from 10
+    * [maxTemp] to 2500 from 2900
+  * Added
+    * [buoyancy] = 0.1
+    * srf to [bulkheadProfiles] = mk1, srf
+    * [mirrorRefAxis] = 0, 0, -1
+    * [ModuleLiftingSurface]
+* [DM-fuselage-front] DMF - Flat End
+  * based upon (noseConeAdapter) NCS Adapter
+    * Adjusted
+      * [entryCost] to 8000 from 600
+      * [mass] to 0.1 from 0.11
+      * [angularDrag] from 0.25 // 0.5
+      * [maxTemp] to 2400 from 2900
+    * Added
+      * [explosionPotential] = 0.5
+      * [CenterOfDisplacement] = 0.0, -0.2, 0.0
+      * [thermalMassModifier] = 6.0
+      * [emissiveConstant] = 0.95
+      * [buoyancy] = 0.1
+      * [bulkheadProfiles] = mk1, size0
+      * [ModuleAnimateHeat]
+* [DM-fuselage-adapter] DMF - Flat to 1.25m Round Adapter
+  * based upon (mk2SpacePlaneAdapter) Mk2 to 1.25m Adapter
+    * Adjusted
+      * [entryCost] to 14000 from 1600
+      * [minimum_drag] to 0.1 from 0.3
+      * [angularDrag] to 2 from 1
+      * [crashTolerance] to 50 from 10
+      * [breakingForce] to 50 from 200
+      * [breakingTorque] to 50 from 200
+      * [maxTemp] to 2500 from 2900
+    * Added
+      * srf to [bulkheadprofiles] = mk1, size1, srf
+      * [buoyancy] = 0.1
+      * [emissiveConstant] = 0.8
+      * [explosionPotential] = 0.5
+      * [ModuleLiftingSurface]
+
+### Status
+
+* Issues
+  * updates #24 - Previous Releases
+  * closes #26 - 1.1.0.1-prerelease
+  * updates #28 - Asset Updates
+
+---
+
+## Version 1.1.0.0-adoption - `<Fresh Coat of Paint: Fuselage>`
+
+* Released on 2020-02-17
+* for Kerbal Space Program (KSP) 1.9.x
+
+### Adopted for curation by zer0Kerbal
 
 ### Localization
 
 * Added
   * <en-us.cfg>
   * translations welcomed through GitHub Push Request
-  * updates #5 - Localization - Master
-  * closes #7 - American English <us-en.cfg>
-  * closes #32 - Part Localization
+* updates #6 - Localization - Master
+* closes #7 - American English <us-en.cfg>
+* closes #23 - Part Localization
 
-* updated license to CC BY-SA 4.0
+### Updated
+
 * file structure and modernization
 * modernized part.cfg
 * many little changes to patches/parts.
 
-### Added
+### Added Kerbal Changelog
 
-* New Part
-  * DM-RFC
-  * Radial Fuel Cell
-  * air breathing, liquid fuel powered generator
-  * producing 1.5 EC/s
-  * created DM-RFC texture
-* Compatibility patch
-  * On-Demand Fuel Cells (ODFC)
-
+* added
+  * Readme
+  
 ### Created
 
-* Kerbal Changelog
-* Readme
 * github repo
 * SpaceDock entry
 * CKAN entry
@@ -145,18 +260,9 @@
 ### Status
 
 * Issues
-  * updates #33 - Previous Releases
-  * closes #34 - 1.1.0.0-adoption
-
----
-
-## Version - 1.0.1.0-release - Cost Increase
-
-* Nov 03, 2017
-* Kerbal Space Progrtam 1.3.1
-
-* This release increases the cost of the AeroRTG by 50%, to offset its aerodynamic nature as compared to the original RTG.
-* The part continues to function, so this brings it up to date for 1.3.1.
+  * updates #24 - Previous Releases
+  * closes #25 - 1.1.0.0-adoption
+  * updates #28 - Asset Updates
 
 ---
 
@@ -190,3 +296,4 @@ Correcting typos
 ---
 
 <!-- This File CC BY-ND 4.0 by zer0Kerbal -->
+
