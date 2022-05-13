@@ -42,12 +42,7 @@ An aero parts add-on that adds stock-alike flat fuselage parts. These parts are 
 * radially attached tail boom
 * slanted cone  
 
-### Images
-
-<img src="DaMichels-FuselageSystem" alt="DaMichel's  Fuselage System" title="DaMichel's Fuselage System" style="zoom:55%;" />
-
-[View full album](https://imgur.com/a/rFRN1)
-
+### [View full album](https://imgur.com/a/rFRN1)
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/Fuselage/master/img/HeroLogo_1920x1920.png" alt="Fuselage (DMF)" style="zoom: 33%;" /> 
 
