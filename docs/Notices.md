@@ -2,17 +2,18 @@
 permalink: /Notices.html
 title: Legal Notices
 description: when the revolution comes, .... Legal Mumbo Jumbo (Douglas Adams)
-# layout: bare
 tags: notices,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
-<!--
-Notices.md v1.0.0.0
+<!-- Notices.md v1.0.1.0
 DaMichel's Fuselage (DMF)
 created: 13 Apr 2022
-updated: 
+updated: 15 May 2022
 
 based upon work by LisiasT -->
+
+<script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
+<i class="fa-solid fa-file-contract fa-beat-fade fa-3x" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: #6495ED" ></i>
 
 # DaMichel's Fuselage (DMF)
 
@@ -20,15 +21,15 @@ based upon work by LisiasT -->
 
 ## Trademarks
 
+## Trademarks <i class="fa-solid fa-trademark fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;color: black" ></i>
+
 * "DaMichel" is trademark of DaMichel
 * "Kichel Space Travel Supplies" is trademark of DaMichel
-* "Aerodynamic RTG" is trademark of DaMichel
-* "Radial Aerodynamic RTG" is trademark of DaMichel
-* "AeroRTG" is trademark of Bezzier
+* "Flat Fuselage" is trademark of DaMichel
 * "Color Curves Company" is trademark of Bezzier
 * "ColorCurves" is trademark of Bezzier
 * "DaMichel Ltd" is trademark of zer0Kerbal
-* "DM/L" is trademark of zer0Kerbal
+* "DM/F" and "DMF"  is trademark of zer0Kerbal
 * Kerbal Simple Co is a trademark of zer0Kerbal
 * KerbSimCo is a trademark of zer0Kerbal
 * zer0Kerbal is trademark of zer0kerbal
