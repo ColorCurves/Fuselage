@@ -1,13 +1,14 @@
 ---
 permalink: /License.html
-title: License: CC BY-SA 3.0 Unported
+title: License: CC BY-SA 4.0
 ---
 
 <!--
-CC-BY-SA-3.0.md v1.0.1.0
-DaMichel's Fuselage (DMF)
+CC-BY-SA-4.0.md v1.0.1.0
+---
+
 created: 01 Feb 2022
-updated: 07 Mar 2022
+updated: 10 May 2022
 -->
 
 ![CC](https://creativecommons.org/images/deed/svg/cc_blue.svg)![Attribution](https://creativecommons.org/images/deed/svg/attribution_icon_blue.svg)![Share Alike](https://creativecommons.org/images/deed/svg/sa_blue.svg)
