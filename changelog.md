@@ -29,6 +29,15 @@
   * was: CC-BY-SA-3.0
 * closes #43 - License
 
+### Compatibility
+
+  * [ActiveTextureManagement.cfg] 
+  * [AdvancedJetEngine.cfg] 
+  * [B9FuelSwitch.cfg] 
+  * [B9NodeSwitch.cfg] 
+  * [ModularFuelTanks.cfg] 
+  * [RealFuels.cfg] 
+
 ### Parts
 
 * [DM-fuselage-adapter] v1.0.1.0
