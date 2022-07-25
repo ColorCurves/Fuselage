@@ -67,13 +67,12 @@
 ### Localization
 
 * Update
-  * en-us.cfg v1.0.1.0
-* Add
-  * Localization/
-    * [readme.md] v2.1.2.0
-    * [quickstart.md] v1.0.1.1
-  * [Fuselage.cfg] v1.0.0.0
-    * adds localized tags to parts
+  * [en-us.cfg] v1.1.0.0
+  * [readme.md] v2.1.2.0
+  * [quickstart.md] v1.0.1.1
+  * Config/
+    * [Fuselage.cfg] v1.0.0.0
+      * adds localized tags to parts
 * updates #5 - Localization - Master
 * closes #6 - American English <us-en.cfg>
 * closes #42 - Add localized tags to parts
