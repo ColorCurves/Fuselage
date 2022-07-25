@@ -31,6 +31,17 @@
 
 ### Parts
 
+* [DM-fuselage-adapter] v1.0.1.0
+* [DM-fuselage-front] v1.0.1.0
+* [DM-fuselage-cone] v1.0.1.0
+* [DM-fuselage-tailboom] v1.0.1.0
+* [DM-fuselage-X1] v1.0.1.0
+* [DM-fuselage-X2] v1.0.1.0
+* [DM-fuselage-intake] v1.0.1.0
+
+ghostparts.cfg v1.0.0.0
+DMfuselage-intake
+
 * [DM-RTG.cfg] v1.0.1.0
   * [tags] = #autoLOC_500387
 * [DM-RFC.cfg] v1.0.1.0
