@@ -2,7 +2,7 @@
   
 | modName    | DaMichel's Fuselage (DMF)                                         |
 | ---------- | ----------------------------------------------------------------- |
-| license    | CC-BY-SA-3.0                                                      |
+| license    | CC-BY-SA-4.0                                                      |
 | author     | DaMichel, Bezzier and zer0Kerbal                                  |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/208131-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/Fuselage)               |
@@ -12,13 +12,60 @@
 
 ## Version 1.1.99.0-prerelease - `<Split'n'Polish: Fuselage>`
 
-* 13 May 2022  
+* 23 Jul 2022
 * Release for Kerbal Space Program [KSP 1.12.x]
 
-### Add
+### Summary 1.1.99.0
 
-* Dependency
-  * DaMichel Ltd (agency, flag, common files)
+* Initial Prerelease
+* New Dependency
+  * [DaMichel Ltd (agency, flag, common files)(DM/L)][DML]
+
+[DML]: https://forum.kerbalspaceprogram.com/index.php?/topic/208107-*/ "DaMichel Ltd (DM/L)"
+
+### License
+
+* Updated License: CC-BY-SA-4.0
+  * was: CC-BY-SA-3.0
+* closes #43 - License
+
+### Compatibility
+
+  * [ActiveTextureManagement.cfg] 
+  * [AdvancedJetEngine.cfg] 
+  * [B9FuelSwitch.cfg] 
+  * [B9NodeSwitch.cfg] 
+  * [ModularFuelTanks.cfg] 
+  * [RealFuels.cfg] 
+
+### Parts
+
+* [DM-fuselage-adapter] v1.0.1.0
+* [DM-fuselage-front] v1.0.1.0
+* [DM-fuselage-cone] v1.0.1.0
+* [DM-fuselage-tailboom] v1.0.1.0
+* [DM-fuselage-X1] v1.0.1.0
+* [DM-fuselage-X2] v1.0.1.0
+* [DM-fuselage-intake] v1.0.1.0
+
+ghostparts.cfg v1.0.0.0
+DMfuselage-intake
+
+* [DM-RTG.cfg] v1.0.1.0
+  * [tags] = #autoLOC_500387
+* [DM-RFC.cfg] v1.0.1.0
+  * tags = #autoLOC_500648
+* All parts
+  * Add
+    * [ModuleCargoPart]
+      * [Dimensions] x: 0.25, y: 0.84, z: 0.24
+      * [Bounding] 51.61388 liters
+      * [packedVolume] = 50
+      * [stackableQuantity] = 2
+    * [DRAG_CUBES]
+  * Update
+  * [manufacturer] = #DML-Agency-titl
+* closes #45 - Update Parts
 
 ### Asset Updates
 
@@ -35,26 +82,54 @@
   * duplicate textures
   * duplicate models
 * relocate part.cfg to Parts
-* closes #28 - Asset Updates
+* closes #36 - Asset Updates
 
 ### Localization
 
 * Update
-  * <us-en.cfg>
-* Add
-  * Localization/
-    * [readme.md]
-    * [quickstart.md]
-* updates #6 - American English <us-en.cfg>
+  * [en-us.cfg] v1.1.0.0
+  * [readme.md] v2.1.2.0
+  * [quickstart.md] v1.0.1.1
+  * Config/
+    * [Fuselage.cfg] v1.0.0.0
+      * adds localized tags to parts
 * updates #5 - Localization - Master
+* closes #6 - American English <us-en.cfg>
+* closes #42 - Add localized tags to parts
+
+### docs/
+
+* Add/Update
+  * [Attribution.md] v1.0.7.1
+  * [ManualInstallation.md] v1.1.8.0
+  * [404.md] v1.0.3.2
+  * [LegalMumboJumbo.md] v1.0.5.1
+  * [Localizations.md] v1.1.7.0
+  * [Marketing.md] v1.0.1.0
+  * [Notices.md] v1.0.1.0
+  * [Part-Catalog.md] v1.1.4.0
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
+  * [changelog.md]
+    * add header for docs/
+* closes #47 - docs/
+
+### Documentation
+
+* Update
+  * [Readme.md] v1.6.9.2
+  * [ReleaseNotes.md] v1.3.1.1
+  * [Fuselage.version]
+    * remove
+      * [KSP_VERSION_MAX]
 
 ### Status
 
 * Issues
-  * closes #2 - Fuselage (DMF) 1.1.99.0-prerelease `<Split'n'Polish: Fuselage>`
-  * closes #3 - 1.1.99.0 Verify Legal Mumbo Jumbo
-  * closes #4 - 1.1.99.0 Update Documentation
-  * closes #5 - 1.1.99.0 Update Social Media
+  * closes #1 - Fuselage (DAR) 1.1.99.0-prerelease `<Split'n'Polish: Fuselage>`
+  * closes #2 - 1.1.99.0 Verify Legal Mumbo Jumbo
+  * closes #3 - 1.1.99.0 Update Documentation
+  * closes #4 - 1.1.99.0 Social Media
 
 ---
 
