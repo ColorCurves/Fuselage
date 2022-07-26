@@ -1,0 +1,26 @@
+// ActiveTextureManagement.cfg - v 1.0.0.0
+// DaMichel's Fuselage (DMF)
+// created: 31 Aug 2019
+// updated: 22 Mar 2022
+
+// CC BY-SA 4.0 by zer0Kerbal
+
+ACTIVE_TEXTURE_MANAGER_CONFIG:NEEDS[ActiveTextureManagement]:FOR[Fuselage]
+{
+	folder = DaMichel/Fuselage
+	enabled  = true
+	OVERRIDES
+	{
+		DaMichel/Fuselage/Assets/.*
+		{
+			compress = true
+			mipmaps = true
+			compress_normals = false
+			mipmaps_normals = false
+			scale = 1
+			scale_normals = 1
+			max_size = 0
+			make_not_readable = true
+		}
+	}
+}
