@@ -31,12 +31,24 @@
 
 ### Compatibility
 
-  * [ActiveTextureManagement.cfg] 
-  * [AdvancedJetEngine.cfg] 
-  * [B9FuelSwitch.cfg] 
-  * [B9NodeSwitch.cfg] 
-  * [ModularFuelTanks.cfg] 
-  * [RealFuels.cfg] 
+* Update
+  * [ActiveTextureManagement.cfg] - v 1.0.0.0
+    * disabled by default
+    * renamed to [ActiveTextureManagement.cfg.0]
+  * [AdvancedJetEngine.cfg] v1.0.0.0
+  * [B9FuelSwitch.cfg] v1.2.0.0
+    * simplified patch
+    * swap [SUBTYPE] name <--> title
+  * [B9NodeSwitch.cfg] v1.0.0.0
+  * [ModularFuelTanks.cfg] v1.1.0.0
+    * simplified patch
+      * one patch instead of five
+    * [description]
+      * correct ModuleFuelTanks --> Modular Fuel Tanks
+  * [RealFuels.cfg] v1.1.0.0
+    * simplified patch
+      * one patch instead of five
+    * added [description]
 
 [B9Volume] - [TankVolume]
 
