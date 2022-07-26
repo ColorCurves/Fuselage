@@ -31,7 +31,12 @@
 
 ### Compatibility
 
+* Add
+  * [ghostparts.cfg] v1.0.0.0
+    * part renamed: [DM-fuselage-intake] --> DMfuselage-intake
 * Update
+  * All
+    * rename [B9Volume] -> [TankVolume]
   * [ActiveTextureManagement.cfg] - v 1.0.0.0
     * disabled by default
     * renamed to [ActiveTextureManagement.cfg.0]
@@ -50,36 +55,55 @@
       * one patch instead of five
     * added [description]
 
-[B9Volume] - [TankVolume]
-
 ### Parts
 
-* [DM-fuselage-adapter] v1.0.1.0
-* [DM-fuselage-front] v1.0.1.0
-* [DM-fuselage-cone] v1.0.1.0
-* [DM-fuselage-tailboom] v1.0.1.0
-* [DM-fuselage-X1] v1.0.1.0
-* [DM-fuselage-X2] v1.0.1.0
-* [DM-fuselage-intake] v1.0.1.0
-
-ghostparts.cfg v1.0.0.0
-DMfuselage-intake
-
-* [DM-RTG.cfg] v1.0.1.0
-  * [tags] = #autoLOC_500387
-* [DM-RFC.cfg] v1.0.1.0
-  * tags = #autoLOC_500648
-* All parts
-  * Add
-    * [ModuleCargoPart]
-      * [Dimensions] x: 0.25, y: 0.84, z: 0.24
-      * [Bounding] 51.61388 liters
-      * [packedVolume] = 50
-      * [stackableQuantity] = 2
-    * [DRAG_CUBES]
-  * Update
+* Add
+  * header
+  * [DRAG_CUBE]
+* Update
   * [manufacturer] = #DML-Agency-titl
-* closes #45 - Update Parts
+* [DM-fuselage-adapter] v1.0.1.0
+  * [tags] now #autoLOC_500561 was #DMF-adapter-tags
+  * [ModuleCargoPart]
+    * Dimensions: x: 1.25, y: 1.88, z: 1.25
+    * Bounding Box Size: 2930.072 liters
+    * [packedVolume] = 3000
+* [DM-fuselage-front] v1.0.1.0
+  * [tags] now #autoLOC_500162 was #DMF-front-tags
+  * [ModuleCargoPart]
+    * [packedVolume] = 2150
+    * Dimensions: x: 1.25, y: 1.88, z: 0.89
+    * Bounding Box Size: 2091.797 liters
+* [DM-fuselage-cone] v1.0.1.0
+  * [tags] now #autoLOC_500111 was #DMF-cone-tags
+  * [ModuleCargoPart]
+    * Dimensions: x: 1.16, y: 1.88, z: 1.16
+    * Bounding Box Size: 2524.812 liters
+    * [packedVolume] = 2600
+* [DM-fuselage-tailboom] v1.0.1.0
+  * [tags] now #autoLOC_500165 was #DMF-tailboom-tags
+  * [ModuleCargoPart]
+    * Dimensions: x: 0.40, y: 3.75, z: 0.30
+    * Bounding Box Size: 450 liters
+    * [packedVolume] = 500
+* [DM-fuselage-X1] v1.0.1.0
+  * [tags] is #autoLOC_500573 was #DMF-X1-tags
+  * [ModuleCargoPart]
+    * Dimensions: x: 1.25, y: 1.88, z: 0.89
+    * Bounding Box Size: 2091.797 liters
+    * [packedVolume] = 2125
+* [DM-fuselage-X2] v1.0.1.0
+  * [tags] is #autoLOC_500573 was #DMF-X2-tags
+  * [ModuleCargoPart]
+    * Dimensions: x: 1.25, y: 3.75, z: 0.89
+    * Bounding Box Size: 4183.594 liters
+    * [packedVolume] = 4200
+* [DM-fuselage-intake] v1.0.1.0
+  * [tags] is #autoLOC_500575 was #DMF-intake-tags
+  * [ModuleCargoPart]
+    * Dimensions: x: 1.25, y: 2.23, z: 0.89
+    * Bounding Box Size: 2487.771 liters
+    * [packedVolume] = 2500
 
 ### Asset Updates
 
@@ -96,7 +120,7 @@ DMfuselage-intake
   * duplicate textures
   * duplicate models
 * relocate part.cfg to Parts
-* closes #36 - Asset Updates
+* closes #28 - Asset Updates
 
 ### Localization
 
@@ -107,9 +131,18 @@ DMfuselage-intake
   * Config/
     * [Fuselage.cfg] v1.0.0.0
       * adds localized tags to parts
-* updates #5 - Localization - Master
-* closes #6 - American English <us-en.cfg>
-* closes #42 - Add localized tags to parts
+  * Parts
+    * [ModuleToggleCrossfeed]
+      * #DMF-enableText --> #autoLOC_236028 // Enable Crossfeed
+      * #DMF-disableText --> #autoLOC_236030 // Disable Crossfeed
+      * add: #autoLOC_236032 // Toggle Crossfeed
+    * [ModuleAnimateGeneric]
+      * #DMF-startEventGUIName --> #autoLOC_6001425 // Toggle Intake
+      * #DMF-endEventGUIName --> #autoLOC_6001426 // Close Intake
+      * #DMF-actionGUIName --> #autoLOC_6001427 // Open Intake
+* updates #6 - Localization - Master
+* closes # - American English <us-en.cfg>
+* closes # - Add localized tags to parts
 
 ### docs/
 
@@ -140,10 +173,10 @@ DMfuselage-intake
 ### Status
 
 * Issues
-  * closes #1 - Fuselage (DAR) 1.1.99.0-prerelease `<Split'n'Polish: Fuselage>`
-  * closes #2 - 1.1.99.0 Verify Legal Mumbo Jumbo
-  * closes #3 - 1.1.99.0 Update Documentation
-  * closes #4 - 1.1.99.0 Social Media
+  * closes #2 - Fuselage (DMF) 1.1.99.0-prerelease `<Split'n'Polish: Fuselage>`
+  * closes #3 - 1.1.99.0 Verify Legal Mumbo Jumbo
+  * closes #4 - 1.1.99.0 Update Documentation
+  * closes #5 - 1.1.99.0 Update Social Media
 
 ---
 
