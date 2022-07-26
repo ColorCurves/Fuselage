@@ -32,12 +32,14 @@
 ### Compatibility
 
 * Update
-  * [ActiveTextureManagement.cfg] 
-  * [AdvancedJetEngine.cfg] 
+  * [ActiveTextureManagement.cfg] - v 1.0.0.0
+    * disabled by default
+    * renamed to [ActiveTextureManagement.cfg.0]
+  * [AdvancedJetEngine.cfg] v1.0.0.0
   * [B9FuelSwitch.cfg] v1.2.0.0
     * simplified patch
     * swap [SUBTYPE] name <--> title
-  * [B9NodeSwitch.cfg] 
+  * [B9NodeSwitch.cfg] v1.0.0.0
   * [ModularFuelTanks.cfg] v1.1.0.0
     * simplified patch
       * one patch instead of five
