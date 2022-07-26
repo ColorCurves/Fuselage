@@ -41,7 +41,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 * Updated License: CC-BY-SA-4.0
   * was: CC-BY-SA-3.0
-* closes #43 - License
+* closes #36 - License
 
 ### Compatibility
 
@@ -118,6 +118,7 @@ CC BY-ND 4.0 by zer0Kerbal
     * Dimensions: x: 1.25, y: 2.23, z: 0.89
     * Bounding Box Size: 2487.771 liters
     * [packedVolume] = 2500
+* closes #40 - Update Parts
 
 ### Asset Updates
 
@@ -155,8 +156,8 @@ CC BY-ND 4.0 by zer0Kerbal
       * #DMF-endEventGUIName --> #autoLOC_6001426 // Close Intake
       * #DMF-actionGUIName --> #autoLOC_6001427 // Open Intake
 * updates #6 - Localization - Master
-* closes # - American English <us-en.cfg>
-* closes # - Add localized tags to parts
+* closes #7 - American English <us-en.cfg>
+* closes #37 - Add localized tags to parts
 
 ### docs/
 
@@ -173,7 +174,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * [_config.yml]
   * [changelog.md]
     * add header for docs/
-* closes #47 - docs/
+* closes #38 - docs/
 
 ### Documentation
 
@@ -183,6 +184,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * [Fuselage.version]
     * remove
       * [KSP_VERSION_MAX]
+* closes #39 - Update Documentation
 
 ### Status
 
