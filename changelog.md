@@ -49,18 +49,37 @@
     * simplified patch
       * one patch instead of five
     * added [description]
-
-[B9Volume] - [TankVolume]
+  * All
+    * rename [B9Volume] -> [TankVolume]
 
 ### Parts
 
+* All
+  * Add
+    * [DRAG_CUBE]
 * [DM-fuselage-adapter] v1.0.1.0
+  * [ModuleCargoPart]
 * [DM-fuselage-front] v1.0.1.0
+  * [ModuleCargoPart]
 * [DM-fuselage-cone] v1.0.1.0
+  * [ModuleCargoPart]
+    * Dimensions: x: 1.16, y: 1.88, z: 1.16
+    * Bounding Box Size: 2524.812 liters
+    * [packedVolume] = 2600
 * [DM-fuselage-tailboom] v1.0.1.0
+  * [ModuleCargoPart]
+    * Dimensions: x: 0.40, y: 3.75, z: 0.30
+    * Bounding Box Size: 450 liters
+    * [packedVolume] = 500
 * [DM-fuselage-X1] v1.0.1.0
+  * [ModuleCargoPart]
 * [DM-fuselage-X2] v1.0.1.0
+  * [ModuleCargoPart]
 * [DM-fuselage-intake] v1.0.1.0
+  * [ModuleCargoPart]
+    * Dimensions: x: 1.25, y: 2.23, z: 0.89
+    * Bounding Box Size: 2487.771 liters
+    * [packedVolume] = 2500
 
 ghostparts.cfg v1.0.0.0
 DMfuselage-intake
