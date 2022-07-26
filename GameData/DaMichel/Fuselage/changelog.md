@@ -38,6 +38,8 @@
   * [ModularFuelTanks.cfg] 
   * [RealFuels.cfg] 
 
+[B9Volume] - [TankVolume]
+
 ### Parts
 
 * [DM-fuselage-adapter] v1.0.1.0
